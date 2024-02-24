@@ -72,7 +72,8 @@ The service will return a JSON object with extracted topics as keys and correspo
 ```
 
 ## UML Diagram: Communication Contract
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/c4e3cf48-ecda-4d50-9e24-0a2fc517a268" id="wcWdG36NIuAc"></iframe></div>
+
+![Lucidchart Diagram](https://github.com/LaUrrego/topic-extraction/blob/main/images/cs361%20Microservice%20Communication%20Contract.png?raw=true)
 
 
 ## Structure
