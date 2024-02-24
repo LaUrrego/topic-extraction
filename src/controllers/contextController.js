@@ -11,8 +11,8 @@ exports.processRequest = async (req, res) => {
         // get wikipedia links from topics
         const links = await wikipediaService.getLinks(topics);
         // send
-        res.json(links);
-        
+        res.status(200).json({links:links});
+
     } catch(error) {
         console.error(error);
         res.status(500).send('An error processing this summary')
