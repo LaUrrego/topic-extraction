@@ -4,7 +4,7 @@ const wikipediaService = require('../services/wikipediaService');
 exports.processRequest = async (req, res) => {
     try {
         // obtain summary from body
-        console.log("from the controller: ", req)
+        //console.log("from the controller: ", req)
         const { summary } = req.body;
         // extract topics from the summary
         const topics = await huggingFaceService.extractTopics(summary);

@@ -3,7 +3,7 @@ exports.extractTopics = async (summary) => {
     let data = {
         "inputs": summary
     }
-    //console.log(data)
+    //console.log("data in HF:",data)
     
     const response = await fetch(
         "https://api-inference.huggingface.co/models/transformer3/H2-keywordextractor",
