@@ -1,4 +1,4 @@
-# My Microservice
+# Topic Extraction Microservice
 
 A Node.js microservice that utilizes the Hugging Face Inference API with a keyword extraction text2text generation model for extracting topics from a summary of text, and returning the  corresponding Wikipedia links for those topics. The intended purpose is to provide contextual reference to a given summary, allowing for expanded understanding on the topics included. 
 
