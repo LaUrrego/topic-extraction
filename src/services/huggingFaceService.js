@@ -1,7 +1,8 @@
 
 exports.extractTopics = async (summary) => {
     let data = {
-        "inputs": summary
+        "inputs": summary,
+        wait_for_model: true,
     }
     //console.log("data in HF:",data)
     
